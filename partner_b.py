@@ -37,6 +37,7 @@ for i, s in enumerate(scores):
    try:
          num = int(s)
          print(f'Score [{i}]: {num}')
+         valid.append(num)
    except ValueError:
     print(f'[index {i}] Skipped bad score: {s}')
     continue
